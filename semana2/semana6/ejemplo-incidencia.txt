@@ -1,4 +1,6 @@
 {
-  "tipo": "Iluminación pública",
-  "descripcion": "La comunidad reporta que una lámpara del parque no funciona desde hace varios días."
+  "usuario": "Lorena",
+  "tipo": "falla tecnica",
+  "descripcion": "No funciona el sistema",
+  "prioridad": "alta"
 }

@@ -1,1 +1,9 @@
-Es importante que las plataformas tecnológicas puedan recibir información de forma estructurada porque permite organizar mejor los datos enviados por los ciudadanos. Esto facilita el análisis de los reportes y agiliza la toma de decisiones. Además, ayuda a que la información llegue de manera clara y completa a las entidades responsables. El uso de formatos como JSON permite que los sistemas procesen los datos automáticamente. También mejora la comunicación entre los ciudadanos y las instituciones. Gracias a esto se pueden atender problemas de manera más eficiente. Las plataformas digitales contribuyen a una mayor participación ciudadana. Asimismo, favorecen la transparencia y el seguimiento de las solicitudes realizadas.
+Durante esta actividad aprendí a crear un servidor con Node.js y Express.
+Comprendí cómo funcionan las rutas GET y POST.
+También entendí el uso de express.json() para leer datos en formato JSON.
+Aprendí a recibir información del cliente mediante req.body.
+Esto me permite enviar y recibir datos entre el cliente y el servidor.
+Además, reforcé el uso de APIs en aplicaciones web.
+Este conocimiento es importante para el desarrollo backend.
+Me ayuda a entender cómo funcionan los servicios web.
+También aprendí a organizar mejor los archivos del proyecto.

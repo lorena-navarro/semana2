@@ -1,32 +1,19 @@
 const express = require('express');
 const app = express();
 
-app.use(express.json());
-
-app.post('/registro', (req, res) => {
-
-  const nombre = req.body.nombre;
-  const mensaje = req.body.mensaje;
-
-  res.json({
-    estado: "Datos recibidos",
-    nombre: nombre,
-    mensaje: mensaje
-  });
-
+app.get('/', (req, res) => {
+  res.send('Servidor funcionando correctamente ??');
 });
 
-app.post('/incidencia', (req, res) => {
+app.get('/hola', (req, res) => {
+  res.send('Hola Lorena ?? esta es una nueva ruta');
+});
 
-  const tipo = req.body.tipo;
-  const descripcion = req.body.descripcion;
-
+app.get('/api', (req, res) => {
   res.json({
-    mensaje: "Incidencia registrada",
-    tipo: tipo,
-    descripcion: descripcion
+    mensaje: 'API funcionando correctamente',
+    estado: 'OK'
   });
-
 });
 
 app.listen(3000, () => {

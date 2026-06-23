@@ -1,14 +1,3 @@
-Al enviar una petición POST a la ruta /registro con el siguiente JSON:
-
-{
-  "nombre": "Maria",
-  "mensaje": "Hola comunidad"
-}
-
-el servidor devuelve una respuesta:
-
-{
-  "estado": "Datos recibidos",
-  "nombre": "Maria",
-  "mensaje": "Hola comunidad"
-}
+El servidor recibe datos en formato JSON usando express.json().
+Cuando se envía una petición POST a /registro o /incidencia,
+los datos se reciben en req.body y el servidor responde con los mismos datos confirmando la recepción.
