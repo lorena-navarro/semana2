@@ -1,0 +1,5 @@
+Ejemplo 1:
+{ "id": 1, "problema": "Luz dañada" }
+
+Ejemplo 2:
+{ "id": 2, "problema": "Basura acumulada" }

@@ -1,0 +1,9 @@
+En esta actividad aprendí a crear una API con Node.js y Express.
+Comprendí el uso de rutas GET y POST para manejar información.
+También entendí cómo funcionan los arrays en memoria.
+Esto permite almacenar datos temporalmente en el servidor.
+Aprendí a usar express.json() para recibir datos en formato JSON.
+Pude probar el envío de información mediante POST.
+También verifiqué la consulta de datos mediante GET.
+Esta práctica fortaleció mis conocimientos sobre backend.
+Me ayudó a entender la estructura de un servidor en Node.js.

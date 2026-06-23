@@ -1,0 +1,5 @@
+Al consultar la ruta GET /reportes, el servidor devuelve un arreglo JSON con todos los reportes almacenados en memoria.
+
+Cuando se utiliza POST /reportes, los datos enviados se agregan al array del servidor.
+
+Esto permite registrar y consultar información sin base de datos.
